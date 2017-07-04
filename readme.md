@@ -1,6 +1,6 @@
 # Yocto/GL: C/C++ Single File Libraries for Physically-Based Graphics
 
-_Yocto/GL is a collection of single-file libraries, or single .h/.cpp pairs, for building physically-based graphics applications. Yocto/GL is written in C++14 and compiles on OSX (clang), Linux (clang/gcc) and Windows (cl). You can use Yocto/GL as either header-only libraries, for simplicity, or .h/.cpp pairs, to rduce code bloat and compile time._
+~~Yocto/GL is a collection of single-file libraries, or single .h/.cpp pairs, for building physically-based graphics applications. Yocto/GL is written in C++14 and compiles on OSX (clang), Linux (clang/gcc) and Windows (cl). You can use Yocto/GL as either header-only libraries, for simplicity, or .h/.cpp pairs, to rduce code bloat and compile time.~~
 
 This is only the gltf part of Yocto GL. Check the `yocto_gl` if you need all the other libraries.
 

@@ -15,7 +15,7 @@ endif(WIN32)
 
 file(GLOB yocto_sources yocto/yocto_*.cpp)
 file(GLOB yocto_headers yocto/yocto_*.h)
-set(yocto_include_dir ${PROJECT_SOURCE_DIR}/yocto)
+set(yocto_include_dir ${PROJECT_SOURCE_DIR})
 
 add_library(yocto STATIC ${yocto_sources} ${yocto_headers})
-target_include_directories(yocto PUBLIC yocto_include_dir)
+target_include_directories(yocto PUBLIC ${yocto_include_dir})
